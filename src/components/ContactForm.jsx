@@ -5,7 +5,7 @@ export default function ContactForm() {
   return (
     <div >
       <div className="pt-10 lg:pt-20 ">
-        <h3 className="text-lg text-center lg:text-start lg:text-3lg text-blue-950 mb-5 font-bold mr-5">
+        <h3 className="text-md text-center lg:text-start lg:text-3lg text-blue-950 mb-5 font-bold mr-5">
           WE ARE HERE FOR YOU
         </h3>
         <p className="text-lg text-center  lg:text-start lg:text-2lg text-blue-950 mr-5">

@@ -25,7 +25,7 @@ export default function HeroSection() {
 
   return (
     <div
-    className="xl:h-dvh bg-cover bg-center"
+    className="xl:h-screen bg-cover bg-center"
       style={{
         backgroundImage: `linear-gradient(to top, rgba(20, 39, 74, 0.7), rgba(20, 39, 74, 0.7)), url(${images[value]})`
       }}

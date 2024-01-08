@@ -5,7 +5,7 @@ import Card2 from "../components/Home/Card2";
 
 export default function Home() {
   return (
-    <div className="mr-5">
+    <div>
       <HeroSection />
       <div className="flex flex-col justify-between items-center max-w-xl lg:max-w-3xl xl:max-w-6xl mx-auto gap-5">
         <h3 className="text-xl md:text-3xl text-center mt-20">

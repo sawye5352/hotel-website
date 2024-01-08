@@ -8,7 +8,7 @@ export default function Facilities() {
         <h1 className="text-2xl md:text-4xl text-center font-bold tracking-[3px]">
           FACILITIES
         </h1>
-        <p className="text-lg md:text-[25px] text-center">
+        <p className="text-lg mvsd:text-[25px] text-center">
           We want your stay at our lush hotel to be truly unforgettable. That is
           why we give special attention to all of your needs so that we can
           ensure an experience quite uniquw. Luxury hotels offers the perfect
