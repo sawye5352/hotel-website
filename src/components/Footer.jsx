@@ -38,21 +38,21 @@ export default function Footer() {
         <div className="md:block hidden">
         <div className="flex flex-col space-y-5">
           <p className="text-lg">Subscribe to our newsletter</p>
-          <div class="relative w-full">
+          <div className="relative w-full">
             <input
               type="search"
               id="search-dropdown"
-              class="block p-2.5 w-full z-20 text-sm text-white bg-gray-50 rounded-md border-s-gray-50 border-s-2 border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-s-gray-700  dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:border-blue-500"
+              className="block p-2.5 w-full z-20 text-sm text-white bg-gray-50 rounded-md border-s-gray-50 border-s-2 border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-s-gray-700  dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:border-blue-500"
               placeholder="Email Address"
               onChange={(e) => setNewsletter(e.target.value)}
               value={newsletter}
             />
             <button
               type="submit"
-              class="absolute top-0 end-0 p-2.5 text-sm font-medium h-full text-white bg-primary_blue rounded-e-lg border border-primary_blue-700 hover:bg-orange-800 focus:ring-4 focus:outline-none focus:ring-orange-300 dark:bg-primary_blue dark:hover:bg-orange-300 dark:focus:ring-primary_blue"
+              className="absolute top-0 end-0 p-2.5 text-sm font-medium h-full text-white bg-primary_blue rounded-e-lg border border-primary_blue-700 hover:bg-orange-800 focus:ring-4 focus:outline-none focus:ring-orange-300 dark:bg-primary_blue dark:hover:bg-orange-300 dark:focus:ring-primary_blue"
               onClick={() => setNewsletter("")}
             >
-              <span class="text-white font-bold">OK</span>
+              <span className="text-white font-bold">OK</span>
             </button>
           </div>
         </div>
